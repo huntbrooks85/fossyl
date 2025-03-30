@@ -1,6 +1,7 @@
-from .mcfit import statmc, specmc, mcplot, mcbest, obspec
+from .mcspec import mcspec, obspec, gridinter, statmc, prior, log_posterior, specmc, mcbest, mcplot
+from .mcphot import mcphot, obcolor, intercolor, statmc, prior, log_posterior, photmc, mcbest, mcplot
 from .h5grid import h5grid
-from .btmodel import btmodel, obspec, chisquare
+from .gridfit import gridfit, obspec, chisquare
 
 __version__ = '0.6.2'
 __author__ = 'Hunter Brooks'

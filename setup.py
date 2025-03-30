@@ -20,7 +20,7 @@ setup(
         "scipy",
         "numpy", 
         "xarray"
-                    ],  # FILL THIS OUT ONCE I GET THE DEPENDENCIES!!!
+                    ],
     author="Hunter Brooks",
     author_email="hcb98@nau.edu",
     description="Computional Analysis of Spectral TempLates",

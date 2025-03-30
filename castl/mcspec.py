@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------#
-# castl.mcfit v0.6.2
+# castl.mcspec v0.6.2
 # By Hunter Brooks, at NAU, Flagstaff: Mar. 26, 2025
 #
 # Purpose: Perform MCMC calculation on model spectra
@@ -47,7 +47,7 @@ warnings.filterwarnings('ignore')
 # --------------------------------- #
 
 # --------------------------------- #
-def mcfit(input_file, output_file, model_directory, model_parm, 
+def mcspec(input_file, output_file, model_directory, model_parm, 
           grid_scale = 10, unit_wave=[u.um, u.um], unit_flux=[(u.erg / (u.cm**2 * u.s * u.um)), (u.erg / (u.cm**2 * u.s * u.um))], 
           walkers=15, steps=1000, 
           rv_fit=False, monitor=False, save_output=True): 
