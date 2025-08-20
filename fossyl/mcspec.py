@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------#
-# castl.mcspec v0.6.2
+# fossyl.mcspec v0.6.2
 # By Hunter Brooks, at NAU, Flagstaff: Mar. 26, 2025
 #
 # Purpose: Perform MCMC calculation on model spectra

@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="castl",
+    name="fossyl",
     version="0.6.2",
     license="MIT License",
     packages=find_packages(),
@@ -23,10 +23,10 @@ setup(
                     ],
     author="Hunter Brooks",
     author_email="hcb98@nau.edu",
-    description="Computional Analysis of Spectral TempLates",
+    description="MCMC Tool for Spectral Model Fitting",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/huntbrooks85/castl", 
+    url="https://github.com/huntbrooks85/fossyl",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
