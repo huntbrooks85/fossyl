@@ -1,6 +1,6 @@
 
 <p align="center">
-    <a href="https://ibb.co/chqfBqxv"><img src="/example/model/fossyl_logos.png" width="75%"></a> <br>
+    <a href="https://ibb.co/chqfBqxv"><img src="/example/model/fossyl_logos.png" width="60%"></a> <br>
 </p>
 
 <h1 align="center" id="title"> 🦴 <b> fossyl </b> 🦴 </h1>
