@@ -1,14 +1,7 @@
-
-<p align="center">
-    <a href="https://ibb.co/GQqg1829"><img src="/example/model/castl_logos.png" width="75%"></a> <br>
-</p>
-
-<h1 align="center" id="title"> 🏰 castl 🏰 </h1>
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14969916.svg)](https://doi.org/10.5281/zenodo.14969916) [![PyPi](https://img.shields.io/pypi/v/castl)](https://pypi.org/project/castl/) [![PyPI Downloads](https://static.pepy.tech/badge/castl)](https://pepy.tech/projects/castl)
+<h1 align="center" id="title"> 🦴fossyl🦴 </h1>
 
 <div align="center">
-  <p id="description"> <b> Computional Anaylsis of Spectral TempLates (castl) </b> is a package designed to efficiently run <a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Markov-Chain Monte-Carlo</a> simulations using the <a href="https://emcee.readthedocs.io/en/stable/">emcee</a> package. It uses a <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.RBFInterpolator.html">Radial Basis Function Interpolator</a> to perform efficient interpolation. The algorithm is streamlined for ease of use, requiring only four input variables to run simulations on any spectral model calculated on a grid. However, additional input variables are available for more customization and control. This software supports both regular and irregular grids, making it versatile and adaptable to various modeling scenarios. An example jupyter notebook for using castl is provided. Where castl outputs: a step figure for each parameter, the best fit spectra alongside your input spectra with a corner plot to the right, and a h5 file with the walker data. </p>
+  <p id="description"> <b> fossyl </b> is a package designed to efficiently run <a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Markov-Chain Monte-Carlo</a> simulations using the <a href="https://emcee.readthedocs.io/en/stable/">emcee</a> package. It uses a <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.RBFInterpolator.html">Radial Basis Function Interpolator</a> to perform efficient interpolation. The algorithm is streamlined for ease of use, requiring only four input variables to run simulations on any spectral model calculated on a grid. However, additional input variables are available for more customization and control. This software supports both regular and irregular grids, making it versatile and adaptable to various modeling scenarios. An example jupyter notebook for using fossyl is provided. Where fossyl outputs: a step figure for each parameter, the best fit spectra alongside your input spectra with a corner plot to the right, and a h5 file with the walker data. </p>
 </div>
 
 <div align="center">
@@ -25,7 +18,7 @@
 2. **Download pip:** Visit [here](https://pip.pypa.io/en/stable/installation/) to install pip
 3. **Run Install Command:** Run the command in terminal:
    ```bash
-   pip install castl
+   pip install fossyl
 
 <div align="center">
   <p><b> Manual Installation </b></p>
@@ -35,13 +28,13 @@
 
 1. **Download Python:** Visit [here](https://www.python.org/downloads/) to install Python
 2. **Download pip:** Visit [here](https://pip.pypa.io/en/stable/installation/) to install pip
-3. **Downloading castl:** Download the latest version of castl in the "Releases" tab of the [Github](https://github.com/huntbrooks85/castl) page
-4. **pip Packages:** Go into the directory of castl and run the command:
+3. **Downloading fossyl:** Download the latest version of fossyl in the "Releases" tab of the [Github](https://github.com/huntbrooks85/fossyl) page
+4. **pip Packages:** Go into the directory of fossyl and run the command:
    ```bash
    pip install -r requirements.txt
 
 <div align="center">
-  <h2>⚙️ Using castl ⚙️</h2>
+  <h2>⚙️ Using fossyl ⚙️</h2>
 </div>
 
 <div align="center">
@@ -50,10 +43,10 @@
 <div align="center">
 </div>
 
-1. After castl is installed, verify the installation by running the following command: ```from castl.h5grid import *```. If you encounter any issues during installation, please reach out to Hunter Brooks for assistance. 
+1. After fossyl is installed, verify the installation by running the following command: ```from fossyl.h5grid import *```. If you encounter any issues during installation, please reach out to Hunter Brooks for assistance. 
 2. Ensure that model spectra are assigned as: column 1 (wavelength) and column 2 (flux) 
 3. Assign the relavent variables as described below. 
-4. To compile code, execute the command: ```h5grid(model_directory, model_parm, output_h5)```. These are the minimum required parameters for castl to run. You can include optional variables if needed.
+4. To compile code, execute the command: ```h5grid(model_directory, model_parm, output_h5)```. These are the minimum required parameters for fossyl to run. You can include optional variables if needed.
 
 
 <div align="center">
@@ -85,8 +78,8 @@
 
 1. Ensure that your model is compiled into a h5 file using ```h5grid```
 2. Ensure that the observed spectra are assigned as: column 1 (wavelength), column 2 (flux), and column 3 (uncertainty)
-3. Once castl is successfully imported, define the relevant variables as shown below. Ensure that all required variables are formatted correctly.
-4. To run the Markov-Chain Monte-Carlo simulation, execute the command: ```mcmcfit(input_file, output_file, h5_directory, model_parm)```. These are the minimum required parameters for castl to run. You can include optional variables if needed.
+3. Once fossyl is successfully imported, define the relevant variables as shown below. Ensure that all required variables are formatted correctly.
+4. To run the Markov-Chain Monte-Carlo simulation, execute the command: ```mcmcfit(input_file, output_file, h5_directory, model_parm)```. These are the minimum required parameters for fossyl to run. You can include optional variables if needed.
 
 <div align="center">
   <pp><b> Relavent Variables For mcfit </b></pp> 
@@ -137,19 +130,11 @@
 - **Mr. Hunter Brooks**
   - Email: hcb98@nau.edu
 
-- **Mr. Efrain Efrain Alvarado III**
-
-- **Dr. Adam Burgasser**
-
-- **Dr. Chris Theissen**
-
-- **Dr. Roman Gerasimov** 
-
 <div align="center">
   <h2>📖 Acknowledgments 📖</h2>
 </div>
 
-1. If you intend to publish any calculations done by castl, please reference Brooks et al. (in prep.).
+1. If you intend to publish any calculations done by fossyl, please reference Brooks et al. (in prep.).
 
 2. Please reference the relavent model citation.
 
