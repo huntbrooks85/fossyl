@@ -1,4 +1,11 @@
-<h1 align="center" id="title"> 🦴 fossyl 🦴 </h1>
+
+<p align="center">
+    <a href="https://ibb.co/GQqg1829"><img src="/example/model/castl_logos.png" width="75%"></a> <br>
+</p>
+
+<h1 align="center" id="title"> 🏰 castl 🏰 </h1>
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14969916.svg)](https://doi.org/10.5281/zenodo.14969916) [![PyPi](https://img.shields.io/pypi/v/castl)](https://pypi.org/project/castl/) [![PyPI Downloads](https://static.pepy.tech/badge/castl)](https://pepy.tech/projects/castl)
 
 <div align="center">
   <p id="description"> <b> fossyl </b> is a package designed to efficiently run <a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Markov-Chain Monte-Carlo</a> simulations using the <a href="https://emcee.readthedocs.io/en/stable/">emcee</a> package. It uses a <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.RBFInterpolator.html">Radial Basis Function Interpolator</a> to perform efficient interpolation. The algorithm is streamlined for ease of use, requiring only four input variables to run simulations on any spectral model calculated on a grid. However, additional input variables are available for more customization and control. This software supports both regular and irregular grids, making it versatile and adaptable to various modeling scenarios. An example jupyter notebook for using fossyl is provided. Where fossyl outputs: a step figure for each parameter, the best fit spectra alongside your input spectra with a corner plot to the right, and a h5 file with the walker data. </p>
